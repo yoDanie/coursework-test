@@ -1,0 +1,41 @@
+@import '../../vars.css';
+
+.header {
+  height: 75px;
+  padding: 10px 20px;
+  border-bottom: 5px dashed var(--color-violetDark);
+}
+
+.header__inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32px;
+}
+
+.logo {
+  font-size: 48px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  color: #7774e1;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 var(--color-violetDark), 2px 2px 0 var(--color-violetDark),
+    3px 3px 0 var(--color-violetDark), 4px 4px 0 var(--color-violetDark),
+    5px 5px 0 var(--color-violetDark), 6px 6px 0 var(--color-violetDark);
+  transition: all 0.2s ease-in-out;
+}
+
+.logo:hover {
+  text-shadow: 1px 1px 0 var(--color-violetDark), 2px 2px 0 var(--color-violetDark),
+    3px 3px 0 var(--color-violetDark);
+}
+
+/* .pageTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate3d(-50%, -50%, 0);
+} */
